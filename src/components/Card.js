@@ -6,7 +6,7 @@ const Card = (props) => {
   const { id, name, totalDeaths } = props;
 
   return (
-    <li key={id} className="spain-container">
+    <div key={id} className="spain-container">
       <p className="title">{name}</p>
       <div className="data">
         <p>
@@ -15,14 +15,19 @@ const Card = (props) => {
         </p>
       </div>
       <button type="button">see details</button>
-    </li>
+    </div>
   );
 };
 
 Card.propTypes = {
-  id: PropTypes.number.isRequired,
-  name: PropTypes.string.isRequired,
-  totalDeaths: PropTypes.number.isRequired,
+  id: PropTypes.number,
+  name: PropTypes.string,
+  totalDeaths: PropTypes.number,
 };
 
+Card.defaultProps = {
+  id: 0,
+  name: '',
+  totalDeaths: 0,
+};
 export default Card;

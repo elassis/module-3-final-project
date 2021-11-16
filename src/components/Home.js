@@ -1,55 +1,31 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import '../App.css';
+import { useSelector, useDispatch } from 'react-redux';
+import { getData } from '../redux/reducer';
 import Card from './Card';
 
 const Home = () => {
-  const mockCountry = [
-    {
-      id: 0,
-      name: 'spain',
-      totalDeaths: 5000,
-    },
-  ];
-  const mockRegions = [
-    {
-      id: 1,
-      name: 'madrid',
-      totalDeaths: 5000,
-    },
-    {
-      id: 2,
-      name: 'barcelona',
-      totalDeaths: 4000,
-    },
-    {
-      id: 3,
-      name: 'malella',
-      totalDeaths: 3000,
-    },
-  ];
+  const dispatch = useDispatch();
+  const data = useSelector((state) => state);
+  useEffect(() => {
+    const loadData = async () => {
+      await dispatch(getData());
+    };
+    if (data.length <= 0) {
+      loadData();
+    }
+  }, []);
+
   return (
-    <>
-      <ul className="main-container">
-        <p>country</p>
-        {mockCountry.map((country) => (
-          <Card
-            key={country.id}
-            id={country.id}
-            name={country.name}
-            totalDeaths={country.totalDeaths}
-          />
-        ))}
-        <p>sort by regions</p>
-        {mockRegions.map((region) => (
-          <Card
-            key={region.id}
-            id={region.id}
-            name={region.name}
-            totalDeaths={region.totalDeaths}
-          />
-        ))}
-      </ul>
-    </>
+    <main>
+      {data.map((country) => (
+        <Card
+          key={country.id}
+          name={country.name}
+          totalDeaths={country.total_deaths}
+        />
+      ))}
+    </main>
   );
 };
 

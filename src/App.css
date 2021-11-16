@@ -1,12 +1,18 @@
-ul{
-  list-style-type: none;
-  margin:0;
-  padding: 0;
+main{
+  display: flex;
+    width: 100vw;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+   justify-content: center;
 }
 .spain-container {
-  display: flex;
-  width: 100%;
-  justify-content: space-evenly;
-  margin: 10px 0;
-  border: 1px solid #E0E0E0;
+  width: 45%;
+  height: 150px;
+  margin: 0px;
+  border: 1px solid;
+  padding: 5px;
+}
+h4{
+  text-align: center;
+  text-transform: capitalize;
 }
