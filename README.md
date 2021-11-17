@@ -29,6 +29,9 @@ $ npm start
 ## Live Demo 
 [HERE](https://capstone-m3-microverse.netlify.app/)
 
+## Video
+[VIDEO](https://www.loom.com/share/c8712ae5037543519bbcda1e164d6f05)
+
 ## Design Disclaimer 🤝
 [Original design idea by Nelson Sakwa on Behance.](https://www.behance.net/sakwadesignstudio)
 
