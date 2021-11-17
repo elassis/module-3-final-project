@@ -6,7 +6,8 @@ import { getData } from '../redux/reducer';
 const Details = () => {
   const dispatch = useDispatch();
   const { country } = useParams();
-  const URL = 'https://api.covid19tracking.narrativa.com/api/2021-11-16/country/';
+  const dateRequest = new Date();
+  const URL = `https://api.covid19tracking.narrativa.com/api/${dateRequest.getFullYear()}-${dateRequest.getMonth()}-${dateRequest.getDate()}/country/`;
   const [fetchedData, setFetchedData] = useState([]);
   const navigate = useNavigate();
   useEffect(() => {

@@ -27,7 +27,7 @@ const Home = () => {
   return (
     <main>
       <div>
-        <h2>Covid 19 Stats sorted by Country</h2>
+        <h2>Covid 19 Stats sorted by country</h2>
         <input type="text" className="search-bar" placeholder="write a name..." />
         <button type="button" className="search-btn" onClick={handleChange}>Search</button>
       </div>
