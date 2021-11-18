@@ -178,4 +178,22 @@ h3 {
   .img-home {
     margin-left: 44%;
   }
+
+  .header-logo {
+    width: 20%;
+  }
+
+  .header-text {
+    font-size: 25px;
+    width: 50%;
+  }
+
+  .main-header {
+    justify-content: space-evenly;
+  }
+
+  .search-section {
+    width: 94%;
+    margin: auto;
+  }
 }
