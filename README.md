@@ -23,7 +23,7 @@ $ npm install
 $ npm start
 ```
 ## Screenshots
-![alt text](https://github.com/elassis/module-3-final-project/blob/development/screen-1.jpg?raw=true)
+![alt text](https://github.com/elassis/module-3-final-project/blob/development/screen-new.jpg?raw=true)
 ![alt text](https://github.com/elassis/module-3-final-project/blob/development/screen-2.jpg?raw=true)
 
 ## Live Demo 
