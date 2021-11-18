@@ -23,18 +23,17 @@ $ npm install
 $ npm start
 ```
 ## Screenshots
-![alt text](https://github.com/elassis/module-3-final-project/blob/development/screen-1.jpg?raw=true)
+![alt text](https://github.com/elassis/module-3-final-project/blob/development/screen-new.jpg?raw=true)
 ![alt text](https://github.com/elassis/module-3-final-project/blob/development/screen-2.jpg?raw=true)
 
 ## Live Demo 
-[HERE](https://capstone-m3-microverse.netlify.app/)
+[HERE](https://covid19-m3-capstone.netlify.app/)
 
 ## Video
-[VIDEO](https://www.loom.com/share/c8712ae5037543519bbcda1e164d6f05)
+[VIDEO](https://www.loom.com/share/1434f4efaa864ab5aadcfefd4c27afc4)
 
 ## Design Disclaimer 🤝
 [Original design idea by Nelson Sakwa on Behance.](https://www.behance.net/sakwadesignstudio)
 
 ## Developer ⚒️
 [Enmanuel Lassis](https://github.com/elassis)
-
