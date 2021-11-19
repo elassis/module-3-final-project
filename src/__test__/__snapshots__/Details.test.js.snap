@@ -1,0 +1,158 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Details testing renders Details component correctly 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div>
+        <button
+          class="home-btn"
+          type="button"
+        >
+          ❮
+        </button>
+        <div
+          class="upper-section-details"
+        >
+          <img
+            alt="logo"
+            class="details-logo"
+            src="/world-logo.png"
+          />
+          <p
+            class="country-name-details"
+          />
+        </div>
+        <h3>
+          detailed information
+        </h3>
+        <div
+          class="data-detail"
+        >
+          <p>
+            Total confirmed
+          </p>
+          <p />
+        </div>
+        <div
+          class="data-detail"
+        >
+          <p>
+            Total Deaths
+          </p>
+          <p />
+        </div>
+        <div
+          class="data-detail"
+        >
+          <p>
+            Total Recovered
+          </p>
+          <p />
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div>
+      <button
+        class="home-btn"
+        type="button"
+      >
+        ❮
+      </button>
+      <div
+        class="upper-section-details"
+      >
+        <img
+          alt="logo"
+          class="details-logo"
+          src="/world-logo.png"
+        />
+        <p
+          class="country-name-details"
+        />
+      </div>
+      <h3>
+        detailed information
+      </h3>
+      <div
+        class="data-detail"
+      >
+        <p>
+          Total confirmed
+        </p>
+        <p />
+      </div>
+      <div
+        class="data-detail"
+      >
+        <p>
+          Total Deaths
+        </p>
+        <p />
+      </div>
+      <div
+        class="data-detail"
+      >
+        <p>
+          Total Recovered
+        </p>
+        <p />
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
